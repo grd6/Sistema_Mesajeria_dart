@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&family=Roboto:wght@300;400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+.main-container {
+  display: flex;
+}
+
+.contact {
+  flex: 0 0 11rem;
+  align-items: center;
+  flex-direction: column;
+}
+.principal {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  background-image: url("../img/hand.png");
+  background-size: 15rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #e8ebe4;
+  border-color: #bec1bb;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.titulo-principal {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  justify-content: center;
+  margin-top: 27rem;
+  margin-bottom: 0px;
+}
+
+.sub-titulo-principal {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  font-family: "Open Sans", sans-serif;
+}
+
+.data-user {
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.data-user img {
+  display: flex;
+  border-radius: 50%;
+  width: 2rem;
+}
+
+.p-user {
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.user-chat {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+}
+.status-user {
+  font-family: "Roboto", sans-serif;
+  font-size: x-small;
+  margin-top: 0;
+  color: #bec1bb;
+  margin-left: 10px;
+}
+.status-user-chat {
+  font-family: "Roboto", sans-serif;
+  font-size: x-small;
+  margin-top: -10px;
+  color: #1b1f21;
+}
+.fa-regular,
+.fa-solid {
+  color: #bec1bb;
+  margin-left: -15px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  height: 5rem;
+}
+.mode {
+  position: absolute;
+  padding: 5px;
+}
+hr {
+  margin: 0px;
+}
+
+div button {
+  background-color: #a491d2;
+  border: 0;
+  width: 8rem;
+  height: 2rem;
+}
+
+div button:hover {
+  background-color: #cdc3e6;
+  cursor: grab;
+}
+div button:focus {
+  background-color: #e8ebe4;
+}
+
+div button a {
+  text-decoration: none;
+  color: white;
+}
+section {
+  cursor: grab;
+}
+section:hover {
+  background-color: #e8ebe4;
+}
